@@ -1,0 +1,117 @@
+*{
+    /* width: 1440px;
+    height: 592px; */
+    
+    /* background-color: #FFCD9E; */
+    font-family: arial;
+}
+
+
+
+body h1 {
+    line-height: 50px;
+}
+
+.container {
+    background-color: #FFCD9E;
+    height: 600px;
+    
+    
+}
+
+.Hero_section{
+    
+}
+
+.Hero_under {
+    padding: 100px 200px;
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#email {
+    height: 35px;
+    width: 250px;
+    
+    /* padding: 12px 45px; */
+    background-color: white;
+    border: solid black 2.5px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-weight:600;
+}
+
+.input_btn{
+    margin-top: 40px;
+}
+
+.btn1 {
+    margin-left: 10px;
+    width: 150px;
+    height: 41px;
+    background-color:  #282828;
+    text-align: center; 
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    border: solid #282828;
+}
+
+.right_side{
+   display: flex;
+}
+
+.img_vector > img {
+    height: 30vw;
+
+}
+
+.footer-distributed{
+	background: #282828;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 55px 50px;
+    display: flex;
+    justify-content: space-between;
+
+  
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Footer left */
+
+.footer-left {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 200px;
+}
+
+
+
+
+
+/* Footer Center */
+
+
+
+/* Footer Right */
+
+
+.footer-right {
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+   padding: 0 200px;
+    text-align: right;
+}
